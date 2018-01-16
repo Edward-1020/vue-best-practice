@@ -19,8 +19,7 @@
   ],
   "author": "iezzuyoung@gmail.com",
   "license": "MIT",
-  "bugs": {
-  },
+  "bugs": {},
   "eslintConfig": {
     "root": true,
     "parserOptions": {
