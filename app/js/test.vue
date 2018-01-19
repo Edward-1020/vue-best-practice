@@ -7,19 +7,19 @@
 
 <script>
 export default {
-    data() {
-        return {
-            title: "abcd",
-        }
-    },
+  data () {
+    return {
+      title: 'abcd'
+    }
+  }
 }
 </script>
 
 <style lang="scss" module>
-  .test{
-    color: red;
-    h1{
-      font-size:40px;
-    }
+.test {
+  color: red;
+  h1 {
+    font-size: 40px;
   }
+}
 </style>
