@@ -1,18 +1,22 @@
 <template lang="html">
-    <div :class="$style.home">
-        <h1>Home</h1>
+    <div>
+      <Heador/>
+      <HomeSlider/>
     </div>
 </template>
 
 <script>
+import Heador from '../public/header'
+import HomeSlider from './home-slide'
+
 export default {
+  components: {
+    Heador,
+    HomeSlider
+  }
 }
 </script>
 
 <style lang="scss" module>
-  @import '../../css/reset.scss';
-  .home{
-    color: red;
-    font-size: 80px;
-  }
+
 </style>

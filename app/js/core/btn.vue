@@ -1,0 +1,29 @@
+<template>
+  <div :class="[btnClass, cname]">
+    <slot/>
+  </div>
+</template>
+
+<script type="text/ecmascript-6">
+  export default {
+    props: {
+      cname: {
+        type: String,
+        default: ''
+      }
+    },
+    data () {
+      return {
+        btnClass: 'btn'
+      }
+    }
+  }
+</script>
+
+<style scoped lang="scss" rel="stylesheet/scss">
+  @import '../../css/element.scss';
+
+  .btn {
+     @include btn;
+  }
+</style>
