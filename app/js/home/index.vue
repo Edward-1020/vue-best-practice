@@ -2,17 +2,20 @@
     <div>
       <Heador/>
       <HomeSlider/>
+      <Novice/>
     </div>
 </template>
 
 <script>
 import Heador from '../public/header'
 import HomeSlider from './home-slide'
+import Novice from './novice'
 
 export default {
   components: {
     Heador,
-    HomeSlider
+    HomeSlider,
+    Novice
   }
 }
 </script>
